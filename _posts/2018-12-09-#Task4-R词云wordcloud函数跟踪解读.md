@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Task4 词云函数wordcloud解读
-subtitle:   R函数跟踪解读 —— wordcloud makes words less cloudy
+title:      Task4 词云函数wordcloud
+subtitle:   R函数跟踪解读 wordcloud makes words less cloudy
 date:       2018-12-10
 author:     Jiawen Wu
 header-img: img/post-bg-wordcloud.jpg
