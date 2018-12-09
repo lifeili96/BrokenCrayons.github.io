@@ -11,7 +11,7 @@ github_repo: "https://github.com/BrokenCrayons/brokencrayons.github.io" # you co
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "~Color~"
+sidebar-about-description: "To love oneself is the beginning of a lifelong romance."
 sidebar-avatar: /img/IMG_4637.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
