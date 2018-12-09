@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Task4 词云函数wordcloud跟踪解读
+title:      Task4 词云函数wordcloud解读
 subtitle:   R函数跟踪解读
 date:       2018-12-10
 author:     Jiawen Wu
@@ -34,32 +34,32 @@ function (words, freq, scale = c(4, 0.5), min.freq = 3, max.words = Inf,
           fixed.asp = TRUE, ...)
 ```
 ### 一一解释一下函数头里包含的参数
-* words — 关键词列表
+* **words** — 关键词列表
   * the words
-* freq - 关键词对应的词频列表（用来调整字号的大小，词频越高的词字越大）
+* **freq** - 关键词对应的词频列表（用来调整字号的大小，词频越高的词字越大）
   * the words‘ frequencies
-* scale - 规定字号的范围，比如默认的c(4,0.5)表示规定字号在0.5到4之间
+* **scale** - 规定字号的范围，比如默认的c(4,0.5)表示规定字号在0.5到4之间
   * A vector of length 2 indicating the range of the size of the words 
-* min.freq - 最小的可显示词频，低于最小词频的词不会被显示，默认为3
+* **min.freq** - 最小的可显示词频，低于最小词频的词不会被显示，默认为3
   * words with frequency below min.freq will not be plotted
-* max.words - 显示的最大词数量（在超出最大词量的情况下排在末尾的会被舍掉，默认为无限多）
+* **max.words** - 显示的最大词数量（在超出最大词量的情况下排在末尾的会被舍掉，默认为无限多）
   * Maximum number of words to be plotted. least frequent terms dropped
-* random.order - 词在图上的排列顺序 （TRUE：词随机排列；FALSE：词按频数从图中心位置往外降序排列，即频数大的词出现在最中心的位置上；默认为TRUE）
+* **random.order** - 词在图上的排列顺序 （TRUE：词随机排列；FALSE：词按频数从图中心位置往外降序排列，即频数大的词出现在最中心的位置上；默认为TRUE）
   * plot words in random order. If false, they will be plotted in decreasing frequency
-* random.color - 调整字体的颜色（TRUE：字体颜色随机分配；FALSE：根据词频分配字体颜色；默认为FALSE）
+* **random.color** - 调整字体的颜色（TRUE：字体颜色随机分配；FALSE：根据词频分配字体颜色；默认为FALSE）
   * choose colors randomly from the colors. If false, the color is chosen based on the frequency
-* rot.per - 控制有多少词旋转90度摆放，比如默认为0.1，表示有10%的词将在图中被旋转90度 
+* **rot.per** - 控制有多少词旋转90度摆放，比如默认为0.1，表示有10%的词将在图中被旋转90度 
   * proportion words with 90 degree rotation
-* colors 字体颜色列表（从词频最低到词频最高分别使用什么字体，默认为黑色）
+* **colors** 字体颜色列表（从词频最低到词频最高分别使用什么字体，默认为黑色）
   * color words from least to most frequent
-* ordered.colors - 控制字体颜色使用顺序（TRUE：按照指定的顺序一一对应给出每个关键词字体颜色；FALSE：任意给出字体颜色；默认为FALSE）
+* **ordered.colors** - 控制字体颜色使用顺序（TRUE：按照指定的顺序一一对应给出每个关键词字体颜色；FALSE：任意给出字体颜色；默认为FALSE）
   * if true, then colors are assigned to words in order
-* use.r.layout 
+* **use.r.layout** - 是否使用r函数来做矛盾分析
   * if false, then c++ code is used for collision detection, otherwise R is used
-* fixed.asp 
+* **fixed.asp** - 是否固定图形的长宽比例
   * if TRUE, the aspect ratio is fixed. Variable aspect ratio only supported if rot.per==0
 
-* Notes： 也可以不填入词频而直接填写一堆需要分析的材料，或者使用语料库的数据
+* *Notes* 也可以不填入词频而直接填写一堆需要分析的材料，或者使用语料库的数据
   * If freq is missing, then words can either be a character vector, or Corpus. If it is a vector and freq is missing, standard stop words will be removed prior to plotting.
 
 
@@ -246,9 +246,10 @@ credit to [The R Graph Gallery](https://www.r-graph-gallery.com/)
 
 credit to [The R Graph Gallery](https://www.r-graph-gallery.com/)
 
-详细的介绍大家可以<a href="https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html">点击自取</a>
+关于wordcloud2详细的介绍大家可以<a href="https://cran.r-project.org/web/packages/wordcloud2/vignettes/wordcloud.html">点击自取</a>
 
-***
+
+![](https://ws2.sinaimg.cn/large/006tNbRwly1fy0ylgtd7aj31b803174b.jpg)
 
 嘿嘿嘿
 
