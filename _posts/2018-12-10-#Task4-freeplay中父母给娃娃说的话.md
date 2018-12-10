@@ -158,7 +158,7 @@ result_rawfreeplay_light <- data.frame(Sample,pc1,bc1,pc2,bc2)
 result_rawfreeplay <- data.frame(Sample,Parent, Parent_text_c1, pc1, Baby_text_c1, bc1, c1_time, Parent_text_c2, pc2,Baby_text_c2, bc2, c2_time )
 ```
 
-### 使用wordcloud函数制作词云
+## 使用wordcloud函数制作词云
 
 为了制作词云，我们需要得到一个67位家长合在一起的关键词表以及对应的词频。所以首先要把所有的 parent volcolization 给拼到一起。然后再使用分词包segmentCN重新分词，计算词频。
 
