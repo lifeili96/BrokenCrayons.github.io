@@ -20,11 +20,7 @@ tags:
 
 ## 概述
 
-本文对67对父／母与1-2岁的孩子在freeplay范式中父母说的话进行分词。看看父母在对语言能力刚刚发展的婴儿讲话时，多讲的是哪些词语。
-
-实验为20分钟的freeplay，10分钟为父／母与孩子自由互动，10分钟为父母被分配任务，孩子自己玩耍，两个条件的先后顺序随机。
-
-数据集可以[点击下载](https://github.com/BrokenCrayons/Task4-R-wordcloud-function)
+本文对67对父／母与1-2岁的孩子在freeplay范式中父母说的话进行分词。看看父母在对语言能力刚刚发展的婴儿讲话时，多讲的是哪些词语。实验为20分钟的freeplay，10分钟为父／母与孩子自由互动，10分钟为父母被分配任务，孩子自己玩耍，两个条件的先后顺序随机。数据集可以[点击这里下载](https://github.com/BrokenCrayons/Task4-R-wordcloud-function)
 
 本文的数据来源：
 freeplay过程视频拍摄 -> INTERACT中进行编码 -> 导出编码数据
