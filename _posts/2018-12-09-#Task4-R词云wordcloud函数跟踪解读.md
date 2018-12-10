@@ -273,5 +273,4 @@ credit to [The R Graph Gallery](https://www.r-graph-gallery.com/)
 - [Task 4 R wordcloud function Intro] 
 <a href="https://github.com/BrokenCrayons/Task4-R-wordcloud-function" >点击进入下载页面</a>
 - [录屏Demo观看及下载]
-*～～敬请期待～～*
-
+<a href="https://pan.baidu.com/s/1_19M0kcJ2FKkbUt01GNn4w" >点击进入下载页面</a> (密码:qfmu)
