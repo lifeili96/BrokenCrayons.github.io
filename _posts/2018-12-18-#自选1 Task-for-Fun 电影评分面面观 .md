@@ -12,24 +12,26 @@ tags:
 
 ## 前言
 
-    不同的人群对电影的观感是不一样的，我们就来看看不同的人群对不同电影的评分是怎样的吧！爱情片，科幻片，恐怖片，动作片，总有一款适合你！
+    不同的人群对电影的观感是不一样的，我们就来看看不同的人群对不同电影的评分是怎样的吧！
+    爱情片，科幻片，恐怖片，动作片，总有一款适合你！
 	
 ## 使用的数据集介绍
 
 本case中使用的数据分为两部分：
 
-- 第一部分是由University of Minnesota的GroupLens研究小组提供的MovieLens数据集<a href="https://grouplens.org/datasets/movielens/">【点击进入MovieLens数据下载页面】</a>。该数据集由“users.dat”，“ratings.dat”和“movie.dat”组成。
+- 第一部分是由University of Minnesota的GroupLens研究小组提供的MovieLens数据集<a href="https://grouplens.org/datasets/movielens/">【点击进入MovieLens数据下载页面】</a>该数据集由“users.dat”，“ratings.dat”和“movie.dat”组成。
 
-- 第二部分是画图需要用到的地理数据：美国每个州的边界地理数据和每个州对应的邮政编码。 <a href="https：//www.census.gov/geo/maps-data/data/cbf/cbf_state.html">【点击进入Boundary数据下载页面】</a>
+- 第二部分是画图需要用到的地理数据：美国每个州的边界地理数据和每个州对应的邮政编码 <a href="https：//www.census.gov/geo/maps-data/data/cbf/cbf_state.html">【点击进入Boundary数据下载页面】</a>
 
-下好了数据，我们接下来要做的事情就是：
-- STEP1 导入数据，清理数据，把数据整理称我们好用的形式
-- STEP2 分析每个数据文件并使用ggplot进行数据可视化
-- STEP3 合并我们感兴趣的文件，并使用ggplot和leaflet进行可视化
-- STEP4 在下一节中我们可能还会尝试着做Shiny的反应线图（看期末季+申请季心情）
+下载好了数据，我们接下来要做的事情就是：
+- **STEP1** 导入数据，清理数据，把数据整理称我们好用的形式
+- **STEP2** 分析每个数据文件并使用ggplot进行数据可视化
+- **STEP3** 合并我们感兴趣的文件，并使用ggplot和leaflet进行可视化
+- **STEP4** 在下一节中我们可能还会尝试着做Shiny的反应线图（看期末季+申请季心情）
    
 
 # STEP1 准备数据
+***
 
 ## 导入数据
 ```
@@ -76,6 +78,7 @@ movie <- movie %>% mutate(title1 = paste(X3,X4, sep = ":" )) %>%
 为了进一步展示，我们将“movie”和“ratings”文件合并，以便后续查看电影年份与电影评分之间的关系。
 
 # STEP2 ggplot数据可视化
+***
 ### ●   一天24小时评分量的分布
 
 ```
