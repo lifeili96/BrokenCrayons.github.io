@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      自选 Task-for-Fun 电影评分面面观 
+title:      自选1 Task-for-Fun 电影评分面面观 
 subtitle:   the Research on MovieLens dataset
 date:       2018-12-18
 author:     Jiawen Wu
