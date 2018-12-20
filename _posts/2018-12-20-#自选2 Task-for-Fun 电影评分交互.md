@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      自选2 Task-for-Fun 电影评分交互制作
+title:      自选2 Task-for-Fun 电影评分交互制作
 subtitle:   ggplot Leaflet and Shiny Plot
 date:       2018-12-20
 author:     Jiawen Wu
