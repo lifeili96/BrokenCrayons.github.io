@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      自选2 Task-for-Fun 电影评分交互制作
-subtitle:   ggplot, Leaflet and Shiny Plot
+subtitle:   ggplot Leaflet and Shiny Plot
 date:       2018-12-20
 author:     Jiawen Wu
 header-img: img/post-bg-movies2.jpg
@@ -197,7 +197,7 @@ shinyServer(function(input, output) {
 ```
 ![](https://ws1.sinaimg.cn/large/006tNbRwgy1fyd7csns39g30hs09xb2d.gif)
 
-最终效果可以<a href="https://lfy520.shinyapps.io/line_plot_for_movies/"> 点击这里查看</a>
+<!--最终效果可以<a href="https://lfy520.shinyapps.io/line_plot_for_movies/"> 点击这里查看</a> --> 
 
 ***
 ### 文件下载：
