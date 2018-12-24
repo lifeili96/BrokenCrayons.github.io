@@ -12,7 +12,6 @@ tags:
 
 ### 前言
 这个...统计软件课程作业的发布贴——Task5 使用R进行统计相关问题的解决。
-
 我还是要在这里羞耻地写上我的大名吴嘉雯，还有我的学号15307130412。
 
 ***	
@@ -203,6 +202,10 @@ d_long %>%
     scale_color_rpsy
 ```
 ![](https://ws1.sinaimg.cn/large/006tNbRwly1fyib4r1yzrj30oq0iik0g.jpg)
+
+## Reference
+Grice & Barrett (2014) 在他们的文章 "A note on Cohen's overlapping proportions of normal distributions" 里就指出了Cohen犯的这个错误。
+<a href="https://journals.sagepub.com/doi/abs/10.2466/03.pr0.115c29z4" >原文链接</a>
 
 ***
 
