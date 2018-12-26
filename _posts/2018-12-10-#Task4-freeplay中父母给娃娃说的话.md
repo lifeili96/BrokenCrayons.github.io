@@ -19,7 +19,7 @@ tags:
 
 ## 概述
 
-本文对67对父／母与1-2岁的孩子在freeplay范式中父母说的话进行分词。看看父母在对语言能力刚刚发展的婴儿讲话时，多讲的是哪些词语。实验为20分钟的freeplay，10分钟为父／母与孩子自由互动，10分钟为父母被分配任务，孩子自己玩耍，两个条件的先后顺序随机。数据集可以[点击这里下载](https://github.com/BrokenCrayons/Task4-R-wordcloud-function)
+本文对67对父／母与1-2岁的孩子在freeplay范式中父母说的话进行分词。看看父母在对语言能力刚刚发展的婴儿讲话时，多讲的是哪些词语。实验为20分钟的freeplay，10分钟为父／母与孩子自由互动，10分钟为父母被分配任务，孩子自己玩耍，两个条件的先后顺序随机。数据集可以[点击这里下载](https://github.com/BrokenCrayons/Statistics-Application/tree/master/%23Task4%20R%E5%87%BD%E6%95%B0%E8%B7%9F%E8%B8%AA%E8%A7%A3%E8%AF%BB)
 
 本文的数据来源：
 freeplay过程视频拍摄 -> INTERACT中进行编码 -> 导出编码数据
@@ -187,5 +187,5 @@ wordcloud(myfile.freq$word,myfile.freq$freq.Freq,random.order=FALSE,random.color
 
 #### 参考文件下载：
 - [Task 4 FollowUp 代码及数据] 
-<a href="https://github.com/BrokenCrayons/Task4-R-wordcloud-function" >点击进入下载页面</a>
+<a href="https://github.com/BrokenCrayons/Statistics-Application/tree/master/%23Task4%20R%E5%87%BD%E6%95%B0%E8%B7%9F%E8%B8%AA%E8%A7%A3%E8%AF%BB" >点击进入下载页面</a>
 

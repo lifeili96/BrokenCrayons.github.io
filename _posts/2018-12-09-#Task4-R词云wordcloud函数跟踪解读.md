@@ -271,6 +271,6 @@ credit to [The R Graph Gallery](https://www.r-graph-gallery.com/)
 
 #### 本po参考文件下载：
 - [Task 4 R wordcloud function Intro] 
-<a href="https://github.com/BrokenCrayons/Task4-R-wordcloud-function" >点击进入下载页面</a>
+<a href="https://github.com/BrokenCrayons/Statistics-Application/tree/master/%23Task4%20R%E5%87%BD%E6%95%B0%E8%B7%9F%E8%B8%AA%E8%A7%A3%E8%AF%BB" >点击进入下载页面</a>
 - [录屏Demo观看及下载]
 <a href="https://pan.baidu.com/s/1_19M0kcJ2FKkbUt01GNn4w" >点击进入下载页面</a> (密码:qfmu)
