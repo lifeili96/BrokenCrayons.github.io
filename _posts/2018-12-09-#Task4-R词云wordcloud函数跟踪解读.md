@@ -255,17 +255,12 @@ credit to [The R Graph Gallery](https://www.r-graph-gallery.com/)
 
 至于开头出现的果子
 
-由于这几天上海下雪了
-
-南方娃娃开心得像个傻子
-
-加上这里篇幅有限
-
-将在不知道什么时候推的下一个post里
-
 具体介绍wordcloud函数的应用
 
-欢迎大家关注
+在下一篇post里
+
+拉到最后点NEXT就可以看到啦！
+
 
 ***
 
