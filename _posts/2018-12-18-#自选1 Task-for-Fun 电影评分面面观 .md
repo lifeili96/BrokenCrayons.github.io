@@ -12,8 +12,8 @@ tags:
 
 ## 前言
 
-    不同的人群对电影的观感是不一样的，我们就来看看不同的人群对不同电影的评分是怎样的吧！
-    爱情片，科幻片，恐怖片，动作片，总有一款适合你！
+    不同的人群对电影的观感是不一样的，我们就来看看不同的人群对不同电影的评分是怎样的吧！在Kaggle上看到了MovieLens的数据集，就想说看看大家对电影的观感是怎么样的，又有什么样的评分倾向。
+    
 	
 ## 使用的数据集介绍
 
@@ -21,7 +21,7 @@ tags:
 
 - 第一部分是由University of Minnesota的GroupLens研究小组提供的MovieLens数据集<a href="https://grouplens.org/datasets/movielens/">【点击进入MovieLens数据下载页面】</a>该数据集由“users.dat”，“ratings.dat”和“movie.dat”组成。
 
-- 第二部分是画图需要用到的地理数据：美国每个州的边界地理数据和每个州对应的邮政编码 <a href="https：//www.census.gov/geo/maps-data/data/cbf/cbf_state.html">【点击进入Boundary数据下载页面】</a>
+- 第二部分是画图需要用到的地理数据：美国每个州的边界地理数据和每个州对应的邮政编码 <a href="https：//www.census.gov/geo/maps-data/data/cbf/cbf_state.html">【点击进入Boundary数据下载页面】</a>（友情提示：打开这个链接要挂梯子还得开全局模式）
 
 下载好了数据，我们接下来要做的事情就是：
 - **STEP1** 导入数据，清理数据，把数据整理称我们好用的形式
@@ -29,9 +29,7 @@ tags:
 - **STEP3** 合并我们感兴趣的文件，并使用ggplot和leaflet进行可视化
 - **STEP4** 在下一节中我们可能还会尝试着做Shiny的反应线图（看期末季+申请季心情）
    
-
 # STEP1 准备数据
-***
 
 ## 导入数据
 ```
