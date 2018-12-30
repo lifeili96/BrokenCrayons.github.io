@@ -32,7 +32,7 @@ tags:
 
 导入地理数据并将其与电影数据相结合
 ```
-states <- readOGR(dsn="E:/UCB/X415.1/homework/final project",
+states <- readOGR(dsn="...",
                   layer = "cb_2016_us_state_500k",verbose = FALSE)
 states <- states %>% select(-STATEFP)
 ```
