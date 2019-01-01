@@ -46,7 +46,7 @@ mean_rating_state <- user_rating %>% group_by(state) %>%
 ```
 rating_state <- inner_join(states,mean_rating_state,by=c("STUSPS"="state"))
 ```
-## 使用通Leaflet展示每个州的平均电影评分
+## 使用Leaflet展示每个州的平均电影评分
 ```
 bins <- c(quantile(rating_state$mean_rating_by_state,probs = c(0,0.1,0.2,0.4,0.6,0.8,1)))
 pal <- colorBin("YlOrRd", domain = rating_state$mean_rating_by_state, bins = bins)
@@ -106,7 +106,7 @@ ggplot(data_male_animation,aes(age,mean_rating_ma))+
 
 
 # STEP4 Shiny交互图的制作展示
-
+Shinyapp 如果要发布，需要如下写两个文件，一个是ui文件，一个是server文件。ui文件设置的是网页的界面，而server则负责网页背后的计算程序。
 ```
 # ui.R
 
@@ -197,7 +197,7 @@ shinyServer(function(input, output) {
 ```
 ![](https://ws1.sinaimg.cn/large/006tNbRwgy1fyd7csns39g30hs09xb2d.gif)
 
-<!--最终效果可以<a href="https://lfy520.shinyapps.io/line_plot_for_movies/"> 点击这里查看</a> --> 
+最终的交互网页展示可以用shiny server发布 <a href="https://brokencrayons.shinyapps.io/2_movielens_part2/"> 点击这里查看</a>
 
 ***
 ### 文件下载：
