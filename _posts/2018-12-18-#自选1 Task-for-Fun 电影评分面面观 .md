@@ -122,6 +122,33 @@ top_20_movie <- mean_rate_each_movie %>% ungroup() %>%
                       slice(1:20)
 top_20_movie
 ```
+下面就是打印出来的排名前20的电影信息
+```
+rank rating year genres                         Title 
+ 1   5    1973  Horror                    Baby, The (1973)                                                   
+ 2   5    1995  Documentary               Gate of Heavenly Peace, The (1995)                                 
+ 3   5    1995  Drama                     Schlafes Bruder (Brother of Sleep) (1995)                          
+ 4   5    1998  Comedy                    Follow the Bitch (1998)                                            
+ 5   5    2000  Documentary               Bittersweet Motel (2000)                                           
+ 6   5    1967  Comedy                    Smashing Time (1967)                                               
+ 7   5    1954  Adventure                 Ulysses (Ulisse) (1954)                                            
+ 8   5    1947  Crime                     Lured (1947)                                                       
+ 9   5    1936  Drama                     Song of Freedom (1936)                                             
+10   5    1973  Comedy|Drama|Western      One Little Indian (1973)                                           
+11   4.8  1964  Drama                     I Am Cuba (Soy Cuba/Ya Kuba) (1964)                                
+12   4.75 1994  Drama                     Lamerica (1994)                                                    
+13   4.67 1998  Drama                     Apple, The (Sib) (1998)                                            
+14   4.61 1962  Action|Adventure          Sanjuro (1962)                                                     
+15   4.56 1954  Action|Drama              Seven Samurai (The Magnificent Seven) (Shichinin no samurai) (1954)
+16   4.55 1994  Drama                     Shawshank Redemption, The (1994)                                   
+17   4.52 1972  Action|Crime|Drama        Godfather, The (1972)                                              
+18   4.52 1995  Animation|Comedy|Thriller Close Shave, A (1995)                                              
+19   4.52 1995  Crime|Thriller            Usual Suspects, The (1995)                                         
+20   4.51 1993  Drama|War                 Schindler's List (1993)         
+```
+
+
+
 ### ●   年龄，职业 V.S. 电影类别偏好
 我们可以根据年龄和职业来转换数据并查看不同人群最喜欢的电影类型
 ```
@@ -173,6 +200,6 @@ age `other or not specified` `academic/educator` artist
 ***
 说好的STEP3和4呢？？？
 - STEP3 合并我们感兴趣的文件，并使用ggplot和leaflet进行可视化
-- STEP4 在下一节中我们可能还会尝试着做Shiny的反应线图
+- STEP4 在下一节中我们可能还会尝试着做Shinyapp的反应线图并上传到网上
 
 ～（看期末季+申请季心情）～
