@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      Task4 理解probit和logit函数之间的关系 
+subtitle:   logit(π_i)≈probit(π_i)*(π/3^0.5)
+date:       2019-01-03
+author:     Lifei LI
+header-img: img/post-bg-excelbubble.jpg
+catalog: true
+tags:
+    - 应用心理统计学
+---
+
+## 前言
+
+	这是复旦大学应用心理统计学课程的期末录屏作业发布帖。
+  学生姓名：李莉菲 | 学号：18210730123。
+	
+## 验证以下等式及约等式
+![](https://ws4.sinaimg.cn/large/006tNbRwgy1fxydd64s2kj30yy0e2jyl.jpg)
+
+### STEP1 创建原始矩阵
+- 列出围成一个立方体需要的三维坐标
+- 12条边每条边由2个顶点和中间19个点组成
+- 得到由点的三维坐标形成的 236 x 3 的矩阵 A
+
+**Tips：**
+- Ctrl+R 向右填充
+- Ctrl+D 向下填充
+- 使用ROW()函数返回当前所在行的值
+- 使用选择性粘贴控制粘贴格式
+
+### STEP2 创建旋转矩阵M，得到旋转后坐标矩阵 A*
+- 任意输入一个角度数值a，使用角度制与弧度制的转换公式：  弧度(A)=<a href="https://www.codecogs.com/eqnedit.php?latex=\frac{a}{180}*PI()" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\frac{a}{180}*PI()" title="\frac{a}{180}*PI()" /></a>,将角度制转换为弧度制
+- 输入在XZ平面旋转弧度A的旋转矩阵  M1=<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{bmatrix}&space;cos(A)&sin(A)&0\\&space;-sin(A)&sin(A)&0\\&space;0&space;&&space;0&space;&&space;1&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;cos(A)&sin(A)&0\\&space;-sin(A)&sin(A)&0\\&space;0&space;&&space;0&space;&&space;1&space;\end{bmatrix}" title="\begin{bmatrix} cos(A)&sin(A)&0\\ -sin(A)&sin(A)&0\\ 0 & 0 & 1 \end{bmatrix}" /></a>
+- 使用函数MMULT选中矩阵M1及矩阵M2进行矩阵相乘
+	选中行数与M1相同，列数与M2相同的区域，按 Ctrl+Shift+Enter 得到在XZ平面旋转A，在YZ平面旋转B的旋转变换矩阵M
+- 同理，使用函数MMULT选中矩阵A及矩阵M进行矩阵相乘
+	选中行数与A相同，列数与M相同的区域，按 Ctrl+Shift+Enter 得到在XZ平面旋转A，在YZ平面旋转B后的坐标矩阵A*
+
+### STEP3 数据整理和排序（非必要）
+- 使用函数SMALL(Array, k)找到z坐标列中从小到大排列后，排序为k的值。
+- 配合row()函数对z列进行排序
+- 使用函数MATCH(Value, Array, k)在z坐标列中找到对应值的函数
+- 使用函数INDEX(Array, R, C) 返回矩阵Array中第R行，第C列的值
+- 配合column()函数对x,y,z三维坐标矩阵按z列从小到大的顺序重新排列
+
+### STEP4 数据可视化
+- 使用公式   Z’=<a href="https://www.codecogs.com/eqnedit.php?latex=(9\div(6-z))^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(9\div(6-z))^{2}" title="(9\div(6-z))^{2}" /></a>对z坐标进行转化，使得z表示的大小与人眼对第三维度Z轴的
+纵深敏感。
+- 选中x’,y’及Z’列插入三维气泡图，并对图形进行调整
+- 选择**开发工具**中的**滚动条**，在图表上部、左部各画一个滚动条
+- 对滚动条右键，选择**设置控件格式**，将最小值与最大值分别设置为0与180，设置控件链接分别
+为F1与F6
+
+#### 参考文件下载：
+
+文件及视频制作参考：http://fudan.lxxm.com/u15307110321/
+
+- [#Task 1 使用Excel进行矩阵旋转及可视化步骤指导] 
+<a href="https://github.com/BrokenCrayons/Statistics-Application/tree/master/%23Task1%20Excel%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%20">点击进入下载页面</a>
+- [#Task 1 Excel气泡图Demo]
+<a href="https://github.com/BrokenCrayons/Statistics-Application/tree/master/%23Task1%20Excel%E7%9F%A9%E9%98%B5%E6%97%8B%E8%BD%AC%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%20" download="使用Excel进行矩阵旋转及可视化.xlsx">点击进入下载页面</a>
+- [录屏Demo观看及下载]
+<a href="https://pan.baidu.com/s/1u8NWsAivq4jOCwkV_pC8jQ">点击进入页面</a>
+密码:qplz
