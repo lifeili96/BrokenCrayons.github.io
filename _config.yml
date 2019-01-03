@@ -1,7 +1,7 @@
 # Site settings
 title: Bollingen🗻
 SEOTitle: 李莉菲的博客 | Lifei's Blog
-header-img: img/post-bg-swift.jpg
+header-img: img/head-photo.png
 email: lifei.li960111@outlook.com
 description: "如果只在不被辜负时去信任，只在有所回报时去爱，只在学有所用时去学习，那么就放弃了人之为人的特征。"
 # description: "Be on your guard; stand firm in the faith; be courageous; be strong."
@@ -13,7 +13,7 @@ github_repo: "https://github.com/lifeili96/lifeili96.github.io" # you code repos
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "To trust, to love, to learn."
-sidebar-avatar: /img/IMG_4637.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/head-photo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
