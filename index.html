@@ -7,10 +7,10 @@ description: "如果只在不被辜负时去信任，只在有所回报时去爱
     <div class="article-list">
         {% for post in paginator.posts %}
             <article class="article-item">
-                {% if post.head-img %}
-                <div class="post-head-img">
+                {% if post.header-img %}
+                <div class="post-header-img">
                     <a class="post-link" href="{{ post.url }}" title="{{ post.title }}"></a>
-                    <img src="{{ post.head-img }}" alt="">
+                    <img src="{{ post.header-img }}" alt="">
                 </div>
                 {% endif %}
                 <section class="post-preview">
