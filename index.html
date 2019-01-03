@@ -12,6 +12,10 @@ description: "如果只在不被辜负时去信任，只在有所回报时去爱
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
         </div>
     </a>
     <p class="post-meta">
