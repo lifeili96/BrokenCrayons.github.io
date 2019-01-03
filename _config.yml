@@ -1,18 +1,18 @@
 # Site settings
-title: Broken Crayons
-SEOTitle: Jiawen's Blog | Eileen
+title: Bollingen🗻
+SEOTitle: 李莉菲的博客 | Lifei's Blog
 header-img: img/post-bg-swift.jpg
-email: jiawen_wu@outlook.com
-description: "人生是随机过程的一次实现。"
+email: lifei.li960111@outlook.com
+description: "如果只在不被辜负时去信任，只在有所回报时去爱，只在学有所用时去学习，那么就放弃了人之为人的特征。"
 # description: "Be on your guard; stand firm in the faith; be courageous; be strong."
-keyword: "broken, crayons, broken crayons, eileen, jiawen"
-url: "http://brokencrayons.github.io"          # your host, for absolute URL
+keyword: "home🏡, mom👸🏻, zouzou👦🏻, lifei🐧, psychology🧠"
+url: "https://lifeili96.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/BrokenCrayons/brokencrayons.github.io" # you code repository
+github_repo: "https://github.com/lifeili96/lifeili96.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "To love oneself is the beginning of a lifelong romance."
+sidebar-about-description: "To trust, to love, to learn."
 sidebar-avatar: /img/IMG_4637.JPG      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
