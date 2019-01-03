@@ -15,7 +15,11 @@ sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "To trust, to love, to learn."
 sidebar-avatar: /img/head-photo.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
+# Search
+search: true
 
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
 
 # SNS settings
 RSS: false
