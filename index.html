@@ -6,18 +6,17 @@ description: "如果只在不被辜负时去信任，只在有所回报时去爱
 {% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        {% if post.header-img %}
-               <div class="post-header-img">
-                   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}"></a>
-                   <img src="{{ post.header-img }}" href="{{ post.url | prepend: site.baseurl }}" alt="">
-               </div>
-        {% endif %}
-        <h3 class="post-title">
+        <h2 class="post-title">
             {{ post.title }}
-        </h3>
-        <h4 class="post-subtitle">
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
             {{ post.subtitle }}
-        </h4>
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
     </a>
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
