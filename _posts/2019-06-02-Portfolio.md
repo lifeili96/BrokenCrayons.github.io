@@ -48,11 +48,11 @@ tags:
 
 ![Aaron Swartz](https://raw.githubusercontent.com/lifeili96/lifeili96.github.io/master/img/moon.png)
 
-## 宣传折页
+## 宣传折页（使用Pages制作）
 - <a href="https://github.com/lifeili96/lifeili96.github.io/raw/master/pwa/Y2017%20MT%20%E5%AE%A3%E4%BC%A0%E6%8A%98%E9%A1%B5%201015%20Final%20Ver.pdf">欧莱雅17届管培生培训宣传折页（点击下载后预览）</a>
 - <a href="https://github.com/lifeili96/lifeili96.github.io/raw/master/pwa/%E4%BA%BA%E6%A0%BC%E5%BF%83%E7%90%86%E5%AD%A6%E5%AE%A3%E4%BC%A0%E6%8A%98%E9%A1%B5.pdf">人格心理学宣传折页（点击下载后预览）</a>
 
-## PPT
+## PPT（使用Keynote制作）
 - <a href="https://github.com/lifeili96/lifeili96.github.io/raw/master/pwa/%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E5%BF%83%E7%90%86%E5%AD%A6%E7%B3%BB%E4%BB%8B%E7%BB%8D.pdf">复旦大学心理学系介绍（点击下载后预览）</a>
 - <a href="https://github.com/lifeili96/lifeili96.github.io/raw/master/pwa/181120-%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6%E6%96%87%E7%8C%AE%E6%B1%87%E6%8A%A5-%E6%9D%8E%E8%8E%89%E8%8F%B2.pdf">社会心理学文献汇报（点击下载后预览）</a>
 - <a href="https://github.com/lifeili96/lifeili96.github.io/raw/master/pwa/181120-%E7%A4%BE%E4%BC%9A%E5%BF%83%E7%90%86%E5%AD%A6%E6%96%87%E7%8C%AE%E6%B1%87%E6%8A%A5-%E6%9D%8E%E8%8E%89%E8%8F%B2.pdf">游戏化人才测评工具pymetrics介绍（点击下载后预览）</a>
