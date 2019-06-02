@@ -17,7 +17,7 @@ tags:
 - <a href="https://XYTPUW.axshare.com">抢票用户引导一期：多选车次、多选座席（点击查看）</a>
 - <a href="https://hruw5v.axshare.com">余票不足转抢票（点击查看）</a>
 - <a href="https://jldvnt.axshare.com">增删改12306乘客（点击查看）</a>
-- <a href="https://hv6eh5.axshare.com">火车票外部推广落地页原型（点击查看）</a>
+- <a href="https://hv6eh5.axshare.com">火车票外部推广落地页（点击查看）</a>
 
 ## 微信公众号推文
 ### 「糖心理」实习期间微信推文作品
