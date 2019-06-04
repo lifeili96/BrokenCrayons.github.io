@@ -32,7 +32,7 @@ tags:
 - <a href="https://mp.weixin.qq.com/s/WDBp-dzXcX9kb4SMhVoTbw"> 【糖•微课】张天布：那些年，我们被亲情支配的春节焦虑 （点击阅读）</a>
 ### 「复旦社政研究生团学联」宣传部任职期间推文
 - <a href="https://mp.weixin.qq.com/s/705OBmMK2rg4AjQRLNyllA">秋季摄影展作品征集 | 一座城，爱与恨（点击阅读）</a>
-- <a href="https://mp.weixin.qq.com/s/s7lTA5Sb6bVBoMa1r92LBA">秋季摄影展投票 | 哪幅城市影像更触动你的心？（点击阅读）</a>
+- <a href="https://mp.weixin.qq.com/s/FLdL-Iq6vgN5nhLQfzRJbw">秋季摄影展投票 | 哪幅城市影像更触动你的心？（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/gAMxfCJG-MCsVlW7vxdrSw">摄影作品颁奖礼 | 独属于你我的城市故事（点击阅读）</a>
 
 ## 海报
