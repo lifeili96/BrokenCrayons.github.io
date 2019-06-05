@@ -11,6 +11,7 @@ tags:
 ---
 
 ## 原型&PRD
+- <a href="https://olcdp8.axshare.com">火车票通勤模式功能简介（点击查看）</a>
 - <a href="https://60DWR2.axshare.com">火车票老带新内部营销活动（点击查看）</a>
 - <a href="https://x1kzr7.axshare.com">联程票/中转换乘方案（点击查看）</a>
 - <a href="https://QPYZ4M.axshare.com">抢票用户引导二期：购买加速包（点击查看）</a>
