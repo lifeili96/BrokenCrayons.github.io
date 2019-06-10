@@ -11,6 +11,7 @@ tags:
 ---
 
 ## 原型&PRD
+- <a href="https://yjnqpj.axshare.com">火车票通勤模式改版（点击查看）</a>
 - <a href="https://olcdp8.axshare.com">火车票通勤模式功能简介（点击查看）</a>
 - <a href="https://60DWR2.axshare.com">火车票老带新内部营销活动（点击查看）</a>
 - <a href="https://x1kzr7.axshare.com">联程票/中转换乘方案（点击查看）</a>
@@ -34,7 +35,7 @@ tags:
 ### 「复旦社政研究生团学联」宣传部任职期间推文
 - <a href="https://mp.weixin.qq.com/s/705OBmMK2rg4AjQRLNyllA">秋季摄影展作品征集 | 一座城，爱与恨（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/FLdL-Iq6vgN5nhLQfzRJbw">秋季摄影展投票 | 哪幅城市影像更触动你的心？（点击阅读）</a>
-- <a href="https://mp.weixin.qq.com/s/gAMxfCJG-MCsVlW7vxdrSw">摄影作品颁奖礼 | 独属于你我的城市故事（点击阅读）</a>
+- <a href="https://mp.weixin.qq.com/s/-nevbu8WOrFHkb14wSshrw">摄影作品颁奖礼 | 独属于你我的城市故事（点击阅读）</a>
 
 ## 海报
 ### 使用Photoshop制作
