@@ -2,7 +2,7 @@
 layout:     post
 title:      作品集 
 subtitle:   原型&PRD | 微信公众号推文 | 海报 | 宣传折页 | PPT
-date:       2019-06-14
+date:       2019-06-02
 author:     Lifei LI
 header-img: img/nick-karvounis-142025-unsplash2.jpg
 catalog: true
