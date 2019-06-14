@@ -26,12 +26,12 @@ tags:
 #### 心理学科普长文
 - <a href="https://mp.weixin.qq.com/s/FoLVVFRq0VHJaNDINiQm2w">【2分钟短片+长文】史上最全的“双相情感障碍”自救手册（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/4xaUOq2k0Q5Cl2lcYD55YQ"> 从上海“冰柜藏妻”案聊起 | 反社会人格：最不受欢迎、最令人恐惧的精神变态（点击阅读）</a>
+#### 微课宣传文案
+- <a href="https://mp.weixin.qq.com/s/WDBp-dzXcX9kb4SMhVoTbw"> 【糖•微课】张天布：那些年，我们被亲情支配的春节焦虑 （点击阅读）</a>
 #### 学术简报
 - <a href="https://mp.weixin.qq.com/s/iAMbcuuqDZaFeYKrNu0nLw">【糖•学术简报】全球最新心理学研究汇总（11.13-11.19日）（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/D7IQlQu3nlftJnXgtnlExA">【糖•学术简报】“大男子主义”有害男性心理健康（11.20-11.26日）（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/fj37831nhI2ZFHRjFNJ0gQ">【学术简报】本期研究主题-抑郁症、精神分裂、睡眠缺失、迷幻蘑菇（11.27-12.03日）（点击阅读）</a>
-#### 微课宣传文案
-- <a href="https://mp.weixin.qq.com/s/WDBp-dzXcX9kb4SMhVoTbw"> 【糖•微课】张天布：那些年，我们被亲情支配的春节焦虑 （点击阅读）</a>
 
 ### 复旦社政研究生团学联宣传部任职期间推文
 - <a href="https://mp.weixin.qq.com/s/705OBmMK2rg4AjQRLNyllA">秋季摄影展作品征集 | 一座城，爱与恨（点击阅读）</a>
