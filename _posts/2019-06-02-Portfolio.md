@@ -11,8 +11,10 @@ tags:
 ---
 
 # 原型&PRD
+
 ## 爱奇艺
 - <a href="https://scene.zeplin.io/project/5d65f6ce0d6e049b18988efd/screen/5d65f7055cc9e39b8afd5f11">「我的」-「反馈与帮助」页面优化，新增「反馈历史」（点击查看）</a>
+
 ## 小黑鱼科技
 - <a href="https://yjnqpj.axshare.com">火车票通勤模式改版（点击查看）</a>
 - <a href="https://olcdp8.axshare.com">火车票通勤模式功能简介（点击查看）</a>
@@ -25,12 +27,16 @@ tags:
 - <a href="https://hv6eh5.axshare.com">火车票外部推广落地页（点击查看）</a>
 
 # 微信公众号推文（原创）
+
 ## 糖心理实习期间微信推文作品
+
 ### 心理学科普长文2篇
 - <a href="https://mp.weixin.qq.com/s/FoLVVFRq0VHJaNDINiQm2w">【2分钟短片+长文】史上最全的“双相情感障碍”自救手册（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/4xaUOq2k0Q5Cl2lcYD55YQ"> 从上海“冰柜藏妻”案聊起 | 反社会人格：最不受欢迎、最令人恐惧的精神变态（点击阅读）</a>
+
 ### 微课宣传推文1篇
 - <a href="https://mp.weixin.qq.com/s/WDBp-dzXcX9kb4SMhVoTbw"> 【糖•微课】张天布：那些年，我们被亲情支配的春节焦虑 （点击阅读）</a>
+
 ### 学术简报3篇
 - <a href="https://mp.weixin.qq.com/s/iAMbcuuqDZaFeYKrNu0nLw">【糖•学术简报】全球最新心理学研究汇总（11.13-11.19日）（点击阅读）</a>
 - <a href="https://mp.weixin.qq.com/s/D7IQlQu3nlftJnXgtnlExA">【糖•学术简报】“大男子主义”有害男性心理健康（11.20-11.26日）（点击阅读）</a>
@@ -42,6 +48,7 @@ tags:
 - <a href="https://mp.weixin.qq.com/s/-nevbu8WOrFHkb14wSshrw">摄影作品颁奖礼 | 独属于你我的城市故事（点击阅读）</a>
 
 # 海报
+
 ## 使用Photoshop制作
 ![Aaron Swartz](https://raw.githubusercontent.com/lifeili96/lifeili96.github.io/master/img/WechatIMG65.png)
 
